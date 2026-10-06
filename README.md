@@ -1,5 +1,7 @@
 ## 📊 SOC Dashboard
 
+
+![SOC Threat Detection Dashboard](screenshots/soc_dashboard.png)
 The project generates an interactive HTML dashboard showing:
 
 - Total security events
