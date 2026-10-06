@@ -1,0 +1,558 @@
+import json
+from html import escape
+from collections import Counter
+
+
+RISK_FILE = "reports/risk_summary.json"
+DETECTIONS_FILE = "reports/detections.json"
+OUTPUT_FILE = "reports/soc_dashboard.html"
+
+
+def load_json(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def generate_dashboard():
+
+    risk = load_json(RISK_FILE)
+    detections = load_json(DETECTIONS_FILE)
+
+    # Count threat types
+    threat_counts = Counter(
+        detection.get("threat_type", "Unknown")
+        for detection in detections
+    )
+
+    # Count activity by source IP
+    ip_counts = Counter(
+        detection.get("source_ip", "Unknown")
+        for detection in detections
+    )
+
+    # Convert chart data to JavaScript-compatible JSON
+    threat_labels = json.dumps(list(threat_counts.keys()))
+    threat_values = json.dumps(list(threat_counts.values()))
+
+    ip_labels = json.dumps(list(ip_counts.keys()))
+    ip_values = json.dumps(list(ip_counts.values()))
+
+    total_events = risk["total_security_events"]
+    critical = risk["critical"]
+    high = risk["high"]
+    medium = risk["medium"]
+    low = risk["low"]
+    overall_risk = risk["overall_risk"]
+
+    # Determine status style
+    if overall_risk == "CRITICAL":
+        status_class = "critical"
+    elif overall_risk == "HIGH":
+        status_class = "high"
+    elif overall_risk == "MEDIUM":
+        status_class = "medium"
+    else:
+        status_class = "low"
+
+    # Generate detection table
+    rows = ""
+
+    for detection in detections:
+
+        severity = escape(
+            detection.get("severity", "UNKNOWN")
+        )
+
+        threat_type = escape(
+            detection.get("threat_type", "Unknown")
+        )
+
+        source_ip = escape(
+            detection.get("source_ip", "Unknown")
+        )
+
+        description = escape(
+            detection.get("description", "No description")
+        )
+
+        rows += f"""
+        <tr>
+            <td>{threat_type}</td>
+            <td>{source_ip}</td>
+            <td>
+                <span class="badge {severity.lower()}">
+                    {severity}
+                </span>
+            </td>
+            <td>{description}</td>
+        </tr>
+        """
+
+    html = f"""
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>SOC Threat Detection Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+
+* {{
+    box-sizing: border-box;
+}}
+
+body {{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #07111f;
+    color: #e6edf7;
+}}
+
+.header {{
+    padding: 28px 40px;
+    background: #0b1728;
+    border-bottom: 1px solid #1d3048;
+}}
+
+.header h1 {{
+    margin: 0;
+    color: #38bdf8;
+    font-size: 28px;
+}}
+
+.header p {{
+    margin: 8px 0 0;
+    color: #8fa6bd;
+}}
+
+.container {{
+    padding: 30px 40px;
+    max-width: 1400px;
+    margin: auto;
+}}
+
+.status {{
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #334155;
+}}
+
+.status.high {{
+    background: #3a1515;
+    border-color: #ef4444;
+}}
+
+.status.medium {{
+    background: #382b0b;
+    border-color: #f59e0b;
+}}
+
+.status.low {{
+    background: #102d22;
+    border-color: #22c55e;
+}}
+
+.status.critical {{
+    background: #3b0a0a;
+    border-color: #dc2626;
+}}
+
+.status h2 {{
+    margin: 0 0 6px;
+}}
+
+.cards {{
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(190px, 1fr));
+    gap: 18px;
+    margin-bottom: 30px;
+}}
+
+.card {{
+    background: #0d1b2d;
+    border: 1px solid #20344d;
+    border-radius: 12px;
+    padding: 22px;
+}}
+
+.card h3 {{
+    margin: 0;
+    color: #8fa6bd;
+    font-size: 14px;
+}}
+
+.card .number {{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}}
+
+.chart-grid {{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 25px;
+}}
+
+.section {{
+    background: #0d1b2d;
+    border: 1px solid #20344d;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 25px;
+}}
+
+.section h2 {{
+    margin-top: 0;
+    color: #38bdf8;
+}}
+
+.chart-box {{
+    position: relative;
+    height: 350px;
+}}
+
+table {{
+    width: 100%;
+    border-collapse: collapse;
+}}
+
+th, td {{
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #20344d;
+}}
+
+th {{
+    color: #8fa6bd;
+    font-size: 13px;
+}}
+
+td {{
+    color: #d8e2ee;
+}}
+
+.badge {{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}}
+
+.badge.high {{
+    background: #7f1d1d;
+    color: #fecaca;
+}}
+
+.badge.medium {{
+    background: #78350f;
+    color: #fde68a;
+}}
+
+.badge.low {{
+    background: #14532d;
+    color: #bbf7d0;
+}}
+
+.badge.critical {{
+    background: #991b1b;
+    color: #fee2e2;
+}}
+
+.footer {{
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+    border-top: 1px solid #1d3048;
+}}
+
+@media (max-width: 800px) {{
+
+    .header,
+    .container {{
+        padding: 20px;
+    }}
+
+    .chart-grid {{
+        grid-template-columns: 1fr;
+    }}
+
+    table {{
+        font-size: 13px;
+    }}
+
+    th, td {{
+        padding: 9px;
+    }}
+
+}}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+    <h1>🛡️ SOC Threat Detection Dashboard</h1>
+
+    <p>
+        Security Log Monitoring & Incident Detection Platform
+    </p>
+
+</div>
+
+
+<div class="container">
+
+    <div class="status {status_class}">
+
+        <h2>
+            Overall Security Risk:
+            {escape(overall_risk)}
+        </h2>
+
+        <p>
+            Automated analysis of authentication
+            and security log activity.
+        </p>
+
+    </div>
+
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>SECURITY EVENTS</h3>
+            <div class="number">{total_events}</div>
+        </div>
+
+        <div class="card">
+            <h3>CRITICAL</h3>
+            <div class="number">{critical}</div>
+        </div>
+
+        <div class="card">
+            <h3>HIGH RISK</h3>
+            <div class="number">{high}</div>
+        </div>
+
+        <div class="card">
+            <h3>MEDIUM RISK</h3>
+            <div class="number">{medium}</div>
+        </div>
+
+        <div class="card">
+            <h3>LOW RISK</h3>
+            <div class="number">{low}</div>
+        </div>
+
+    </div>
+
+
+    <div class="chart-grid">
+
+        <div class="section">
+
+            <h2>📊 Threat Distribution</h2>
+
+            <div class="chart-box">
+                <canvas id="threatChart"></canvas>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+
+            <h2>🌐 Activity by Source IP</h2>
+
+            <div class="chart-box">
+                <canvas id="ipChart"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="section">
+
+        <h2>🚨 Threat Detections</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Threat Type</th>
+                    <th>Source IP</th>
+                    <th>Severity</th>
+                    <th>Description</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                {rows}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <div class="section">
+
+        <h2>📊 Assessment Summary</h2>
+
+        <p>
+            The SOC monitoring engine analyzed
+            <strong>{total_events}</strong>
+            security events.
+        </p>
+
+        <p>
+            High-risk events:
+            <strong>{high}</strong>
+        </p>
+
+        <p>
+            Medium-risk events:
+            <strong>{medium}</strong>
+        </p>
+
+        <p>
+            Overall assessment:
+            <strong>{escape(overall_risk)}</strong>
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="footer">
+
+    SOC Log Monitoring & Threat Detection Dashboard<br>
+    Developed by J Vikhaas Anandh<br>
+    For authorized security testing and educational use only.
+
+</div>
+
+
+<script>
+
+const threatLabels = {threat_labels};
+const threatValues = {threat_values};
+
+const ipLabels = {ip_labels};
+const ipValues = {ip_values};
+
+
+new Chart(
+    document.getElementById("threatChart"),
+    {{
+        type: "doughnut",
+
+        data: {{
+            labels: threatLabels,
+
+            datasets: [{{
+                data: threatValues
+            }}]
+        }},
+
+        options: {{
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            plugins: {{
+                legend: {{
+                    labels: {{
+                        color: "#e6edf7"
+                    }}
+                }}
+            }}
+        }}
+    }}
+);
+
+
+new Chart(
+    document.getElementById("ipChart"),
+    {{
+        type: "bar",
+
+        data: {{
+            labels: ipLabels,
+
+            datasets: [{{
+                label: "Security Events",
+                data: ipValues
+            }}]
+        }},
+
+        options: {{
+            responsive: true,
+
+            maintainAspectRatio: false,
+
+            scales: {{
+
+                x: {{
+                    ticks: {{
+                        color: "#e6edf7"
+                    }}
+                }},
+
+                y: {{
+                    beginAtZero: true,
+
+                    ticks: {{
+                        color: "#e6edf7"
+                    }}
+                }}
+
+            }}
+        }}
+    }}
+);
+
+</script>
+
+</body>
+
+</html>
+"""
+
+    with open(
+        OUTPUT_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        file.write(html)
+
+    print("[+] SOC dashboard generated.")
+    print(f"[+] Dashboard saved to: {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    generate_dashboard()
