@@ -1,36 +1,42 @@
-# 🛡️ SOC Log Monitoring & Threat Detection Dashboard
+## 📊 SOC Dashboard
 
-A Python-based Security Operations Center (SOC) project that analyzes authentication logs, detects suspicious activities, classifies security events by severity, and generates an interactive HTML security dashboard.
+The project generates an interactive HTML dashboard showing:
 
-## 🚀 Features
+- Total security events
+- Critical, High, Medium, and Low severity events
+- Threat distribution
+- Source IP activity
+- Detected security events
+- Overall security risk
 
-- Security log parsing
-- SSH brute-force detection
-- Invalid user login detection
-- Source IP identification
-- Threat classification
-- Risk severity analysis
-- Automated security summary
-- Interactive SOC dashboard
-- Threat distribution visualization
-- Source IP activity visualization
-- HTML security report generation
+![SOC Threat Detection Dashboard](screenshots/soc_dashboard.png)
 
-## 🏗️ Architecture
+## 🛠️ Technologies Used
+
+- Python
+- Windows Security Event Logs
+- PowerShell
+- JSON
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+
+## 📂 Project Structure
 
 ```text
-Security Logs
-      ↓
-Log Parser
-      ↓
-Parsed Events
-      ↓
-Threat Detection Engine
-      ↓
-Threat Classification
-      ↓
-Risk Analyzer
-      ↓
-SOC Dashboard
-      ↓
-Security Report
+soc-log-monitor/
+├── detector/
+│   ├── detection_engine.py
+│   ├── log_parser.py
+│   ├── risk_analyzer.py
+│   └── windows_log_collector.py
+├── sample_logs/
+│   └── auth.log
+├── screenshots/
+├── reports/
+├── dashboard.py
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
