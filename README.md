@@ -1,7 +1,7 @@
 ## 📊 SOC Dashboard
 
+![SOC Threat Detection Dashboard](https://raw.githubusercontent.com/vikhaasanandh/soc-log-monitor/main/screenshots/soc_dashboard.png)
 
-![SOC Threat Detection Dashboard](screenshots/soc_dashboard.png)
 The project generates an interactive HTML dashboard showing:
 
 - Total security events
@@ -10,8 +10,6 @@ The project generates an interactive HTML dashboard showing:
 - Source IP activity
 - Detected security events
 - Overall security risk
-
-![SOC Threat Detection Dashboard](screenshots/soc_dashboard.png)
 
 ## 🛠️ Technologies Used
 
