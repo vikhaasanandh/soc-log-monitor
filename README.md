@@ -36,14 +36,7 @@ Risk Analyzer
 SOC Dashboard
         ↓
 Security Report
-
-
-Then continue with:
-
-```markdown
----
-
-## ⚙️ Installation & Setup
+```
 
 ---
 
@@ -54,6 +47,76 @@ Then continue with:
 ```bash
 git clone https://github.com/vikhaasanandh/soc-log-monitor.git
 cd soc-log-monitor
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+**Windows PowerShell:**
+
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks script execution, run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then activate again:
+
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+### 4. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the SOC monitoring system
+
+```bash
+python main.py
+```
+
+The system will:
+
+1. Collect Windows Security events
+2. Parse security logs
+3. Detect security threats
+4. Analyze security risks
+5. Generate the SOC dashboard
+
+### 6. View the generated dashboard
+
+After the analysis completes, open:
+
+```text
+reports/soc_dashboard.html
+```
+
+### 7. View generated reports
+
+The project generates:
+
+```text
+reports/
+├── windows_events.json
+├── parsed_logs.json
+├── detections.json
+├── risk_summary.json
+└── soc_dashboard.html
+```
+
+> ⚠️ Only analyze security logs from systems you own or have explicit permission to monitor.
 
 ---
 
@@ -102,6 +165,7 @@ soc-log-monitor/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 ---
 
@@ -133,7 +197,6 @@ After running the project, the following files are generated:
 - `risk_summary.json` — Risk severity summary
 - `soc_dashboard.html` — Interactive SOC security dashboard
 
-
 ---
 
 ## ⚠️ Disclaimer
@@ -151,4 +214,3 @@ Only analyze security logs from systems you own or have explicit permission to m
 Cybersecurity Undergraduate
 
 GitHub: https://github.com/vikhaasanandh
-
