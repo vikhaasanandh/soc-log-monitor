@@ -19,19 +19,19 @@ A Python-based Security Operations Center (SOC) project that analyzes security l
 
 ```text
 Security Logs
-      ↓
+     ↓
 Log Parser
-      ↓
+     ↓
 Parsed Events
-      ↓
+     ↓
 Threat Detection Engine
-      ↓
+     ↓
 Threat Classification
-      ↓
+     ↓
 Risk Analyzer
-      ↓
+     ↓
 SOC Dashboard
-      ↓
+     ↓
 Security Report
 ```
 
