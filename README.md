@@ -5,6 +5,7 @@ A Python-based Security Operations Center (SOC) project that analyzes security l
 ## 🚀 Features
 
 - Security log parsing
+- Windows Security Event collection
 - Threat detection
 - Source IP identification
 - Threat classification
@@ -18,22 +19,31 @@ A Python-based Security Operations Center (SOC) project that analyzes security l
 ## 🏗️ Architecture
 
 ```text
-Security Logs
-     ↓
+Windows Security Logs
+        ↓
+Windows Event Collector
+        ↓
 Log Parser
-     ↓
+        ↓
 Parsed Events
-     ↓
+        ↓
 Threat Detection Engine
-     ↓
+        ↓
 Threat Classification
-     ↓
+        ↓
 Risk Analyzer
-     ↓
+        ↓
 SOC Dashboard
-     ↓
+        ↓
 Security Report
-```
+
+
+Then continue with:
+
+```markdown
+---
+
+## ⚙️ Installation & Setup
 
 ---
 
@@ -44,56 +54,6 @@ Security Report
 ```bash
 git clone https://github.com/vikhaasanandh/soc-log-monitor.git
 cd soc-log-monitor
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-### 3. Activate the virtual environment
-
-**Windows PowerShell:**
-
-```powershell
-venv\Scripts\Activate.ps1
-```
-
-### 4. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Run the SOC monitoring system
-
-```bash
-python main.py
-```
-
-### 6. View the generated dashboard
-
-After the analysis completes, open:
-
-```text
-reports/soc_dashboard.html
-```
-
-### 7. View generated reports
-
-The project generates:
-
-```text
-reports/
-├── parsed_logs.json
-├── detections.json
-├── risk_summary.json
-├── soc_dashboard.html
-└── windows_events.json
-```
-
-> ⚠️ Only analyze security logs from systems you own or have explicit permission to monitor.
 
 ---
 
@@ -101,6 +61,7 @@ reports/
 
 - **Python** — Core programming language
 - **Windows Security Logs** — Security event data
+- **PowerShell** — Windows event collection
 - **JSON** — Structured log and analysis results
 - **HTML/CSS** — Dashboard and report interface
 - **Chart.js** — Data visualization
@@ -141,7 +102,6 @@ soc-log-monitor/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
 
 ---
 
@@ -167,11 +127,12 @@ The project generates an interactive HTML dashboard for security monitoring and 
 
 After running the project, the following files are generated:
 
+- `windows_events.json` — Collected Windows Security events
 - `parsed_logs.json` — Parsed security log events
 - `detections.json` — Detected security events
 - `risk_summary.json` — Risk severity summary
-- `windows_events.json` — Collected Windows security events
 - `soc_dashboard.html` — Interactive SOC security dashboard
+
 
 ---
 
@@ -190,3 +151,4 @@ Only analyze security logs from systems you own or have explicit permission to m
 Cybersecurity Undergraduate
 
 GitHub: https://github.com/vikhaasanandh
+
