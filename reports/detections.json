@@ -1,0 +1,261 @@
+[
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "Special Privilege Assignment",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4672,
+        "description": "Special privileges were assigned to a new logon."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    },
+    {
+        "threat_type": "User Group Enumeration",
+        "source_ip": "Unknown",
+        "severity": "MEDIUM",
+        "event_id": 4798,
+        "description": "A user's local group membership was enumerated."
+    }
+]

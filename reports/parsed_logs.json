@@ -1,0 +1,83 @@
+[
+    {
+        "raw_log": "Oct  6 09:10:21 server sshd[1201]: Failed password for invalid user admin from 192.168.1.50 port 42110 ssh2",
+        "timestamp": "Oct  6 09:10:21",
+        "username": "admin",
+        "source_ip": "192.168.1.50",
+        "source_port": 42110,
+        "event_type": "failed_login",
+        "invalid_user": true
+    },
+    {
+        "raw_log": "Oct  6 09:10:25 server sshd[1202]: Failed password for invalid user test from 192.168.1.50 port 42111 ssh2",
+        "timestamp": "Oct  6 09:10:25",
+        "username": "test",
+        "source_ip": "192.168.1.50",
+        "source_port": 42111,
+        "event_type": "failed_login",
+        "invalid_user": true
+    },
+    {
+        "raw_log": "Oct  6 09:10:29 server sshd[1203]: Failed password for root from 192.168.1.50 port 42112 ssh2",
+        "timestamp": "Oct  6 09:10:29",
+        "username": "root",
+        "source_ip": "192.168.1.50",
+        "source_port": 42112,
+        "event_type": "failed_login",
+        "invalid_user": false
+    },
+    {
+        "raw_log": "Oct  6 09:10:34 server sshd[1204]: Failed password for root from 192.168.1.50 port 42113 ssh2",
+        "timestamp": "Oct  6 09:10:34",
+        "username": "root",
+        "source_ip": "192.168.1.50",
+        "source_port": 42113,
+        "event_type": "failed_login",
+        "invalid_user": false
+    },
+    {
+        "raw_log": "Oct  6 09:10:39 server sshd[1205]: Failed password for admin from 192.168.1.50 port 42114 ssh2",
+        "timestamp": "Oct  6 09:10:39",
+        "username": "admin",
+        "source_ip": "192.168.1.50",
+        "source_port": 42114,
+        "event_type": "failed_login",
+        "invalid_user": false
+    },
+    {
+        "raw_log": "Oct  6 09:12:15 server sshd[1206]: Accepted password for vikhaas from 192.168.1.20 port 42200 ssh2",
+        "timestamp": "Oct  6 09:12:15",
+        "username": "vikhaas",
+        "source_ip": "192.168.1.20",
+        "source_port": 42200,
+        "event_type": "successful_login",
+        "invalid_user": false
+    },
+    {
+        "raw_log": "Oct  6 09:15:42 server sshd[1207]: Failed password for invalid user guest from 10.0.0.25 port 42300 ssh2",
+        "timestamp": "Oct  6 09:15:42",
+        "username": "guest",
+        "source_ip": "10.0.0.25",
+        "source_port": 42300,
+        "event_type": "failed_login",
+        "invalid_user": true
+    },
+    {
+        "raw_log": "Oct  6 09:16:01 server sshd[1208]: Failed password for invalid user guest from 10.0.0.25 port 42301 ssh2",
+        "timestamp": "Oct  6 09:16:01",
+        "username": "guest",
+        "source_ip": "10.0.0.25",
+        "source_port": 42301,
+        "event_type": "failed_login",
+        "invalid_user": true
+    },
+    {
+        "raw_log": "Oct  6 09:20:10 server sshd[1209]: Accepted password for vikhaas from 192.168.1.20 port 42400 ssh2",
+        "timestamp": "Oct  6 09:20:10",
+        "username": "vikhaas",
+        "source_ip": "192.168.1.20",
+        "source_port": 42400,
+        "event_type": "successful_login",
+        "invalid_user": false
+    }
+]

@@ -1,0 +1,702 @@
+[
+    {
+        "TimeCreated": "/Date(1791308136779)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136778)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136776)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136775)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136764)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136762)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136761)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308136758)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124352)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124351)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124350)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124349)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124341)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124340)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124338)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308124336)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308080773)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080772)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080771)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080771)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080770)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080769)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080769)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080768)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080768)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080767)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080767)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080766)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080765)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080765)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080699)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080693)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080693)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080692)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080691)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080691)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080690)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080690)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080689)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080689)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080688)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080687)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080687)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080686)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080672)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080672)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080671)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080670)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080670)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080669)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080669)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080668)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080668)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080667)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080667)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080666)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080665)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080648)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tRead Credential\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080647)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080647)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080646)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080646)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080645)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080645)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080644)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080644)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080643)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080643)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080642)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080642)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080641)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080641)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080640)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080057)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080051)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080044)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080044)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308080041)/",
+        "Id": 5379,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Credential Manager credentials were read.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tVIKHAASANANDH\r\n\tLogon ID:\t\t0x13A989\r\n\tRead Operation:\t\tEnumerate Credentials\r\n\r\nThis event occurs when a user performs a read operation on stored credentials in Credential Manager."
+    },
+    {
+        "TimeCreated": "/Date(1791308076687)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076685)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076684)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076682)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076672)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076670)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076669)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308076666)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308066295)/",
+        "Id": 4672,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "Special privileges assigned to new logon.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSYSTEM\r\n\tAccount Domain:\t\tNT AUTHORITY\r\n\tLogon ID:\t\t0x3E7\r\n\r\nPrivileges:\t\tSeAssignPrimaryTokenPrivilege\r\n\t\t\tSeTcbPrivilege\r\n\t\t\tSeSecurityPrivilege\r\n\t\t\tSeTakeOwnershipPrivilege\r\n\t\t\tSeLoadDriverPrivilege\r\n\t\t\tSeBackupPrivilege\r\n\t\t\tSeRestorePrivilege\r\n\t\t\tSeDebugPrivilege\r\n\t\t\tSeAuditPrivilege\r\n\t\t\tSeSystemEnvironmentPrivilege\r\n\t\t\tSeImpersonatePrivilege\r\n\t\t\tSeDelegateSessionUserImpersonatePrivilege"
+    },
+    {
+        "TimeCreated": "/Date(1791308066295)/",
+        "Id": 4624,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "An account was successfully logged on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nLogon Information:\r\n\tLogon Type:\t\t5\r\n\tRestricted Admin Mode:\t-\r\n\tRemote Credential Guard:\t-\r\n\tVirtual Account:\t\tNo\r\n\tElevated Token:\t\tYes\r\n\r\nImpersonation Level:\t\tImpersonation\r\n\r\nNew Logon:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tSYSTEM\r\n\tAccount Domain:\t\tNT AUTHORITY\r\n\tLogon ID:\t\t0x3E7\r\n\tLinked Logon ID:\t\t0x0\r\n\tNetwork Account Name:\t-\r\n\tNetwork Account Domain:\t-\r\n\tLogon GUID:\t\t{00000000-0000-0000-0000-000000000000}\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x6c4\r\n\tProcess Name:\t\tC:\\Windows\\System32\\services.exe\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\t-\r\n\tSource Network Address:\t-\r\n\tSource Port:\t\t-\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tAdvapi  \r\n\tAuthentication Package:\tNegotiate\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon session is created. It is generated on the computer that was accessed.\r\n\r\nThe subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe logon type field indicates the kind of logon that occurred. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe New Logon fields indicate the account for whom the new logon was created, i.e. the account that was logged on.\r\n\r\nThe network fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe impersonation level field indicates the extent to which a process in the logon session can impersonate.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Logon GUID is a unique identifier that can be used to correlate this event with a KDC event.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested."
+    },
+    {
+        "TimeCreated": "/Date(1791308019725)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019724)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019722)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019721)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019710)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019708)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019706)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308019703)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308013578)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-1001\r\n\tAccount Name:\t\tvikha\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308013577)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-501\r\n\tAccount Name:\t\tGuest\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308013576)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-503\r\n\tAccount Name:\t\tDefaultAccount\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    },
+    {
+        "TimeCreated": "/Date(1791308013575)/",
+        "Id": 4798,
+        "LevelDisplayName": "Information",
+        "ProviderName": "Microsoft-Windows-Security-Auditing",
+        "Message": "A user's local group membership was enumerated.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tVIKHAASANANDH$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nUser:\r\n\tSecurity ID:\t\tS-1-5-21-1252571952-3774185238-1823790207-500\r\n\tAccount Name:\t\tAdministrator\r\n\tAccount Domain:\t\tvikhaasanandh\r\n\r\nProcess Information:\r\n\tProcess ID:\t\t0x3fd0\r\n\tProcess Name:\t\tC:\\Windows\\System32\\svchost.exe"
+    }
+]
